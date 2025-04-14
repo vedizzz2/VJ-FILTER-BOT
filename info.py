@@ -127,12 +127,12 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arolinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'ea7dec972a0670994ad2f4e6be0dc10688fb8db4'')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'ea7dec972a0670994ad2f4e6be0dc10688fb8db4')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Tamil_LinksZzz/36') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
 # Others
-CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
+CACHE_TIME = int(environ.get('CACHE_TIME', 60))
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Naruto ❤️')
