@@ -90,7 +90,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Netflix_Disnep')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Warmovietamilss')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Netflix_Disnep') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Vedisz')
 
 # True Or False
@@ -132,7 +132,7 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Tamil_LinksZzz/36') # How Open 
 
 
 # Others
-CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
+CACHE_TIME = int(environ.get('CACHE_TIME', 60))
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Naruto ❤️')
